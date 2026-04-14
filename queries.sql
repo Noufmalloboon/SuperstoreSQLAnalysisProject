@@ -21,9 +21,9 @@ FROM superstore_fixed;\
 (2)\
 \
 \pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
-\cf0 SELECT Ship_Mode, COUNT(*) AS total_orders\
+\cf0 SELECT `Ship Mode`, COUNT(*) AS total_orders\
 FROM superstore_fixed\
-GROUP BY Ship_Mode\
+GROUP BY `Ship Mode`\
 ORDER BY total_orders DESC;\
 \pard\pardeftab560\slleading20\partightenfactor0
 \cf0 \
@@ -46,7 +46,7 @@ LIMIT 10;\
 (4)\
 \
 \pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
-\cf0 SELECT Category, SUM(Sales) AS total_sales\
+\cf0 SELECT Category, ROUND(SUM(Sales), 2) AS total_sales\
 FROM superstore_fixed\
 GROUP BY Category\
 ORDER BY total_sales DESC;\
