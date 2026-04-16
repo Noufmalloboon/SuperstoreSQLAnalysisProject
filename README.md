@@ -1,6 +1,6 @@
 
 # SuperstoreSQLanalysisProject
-SQL analysis on Superstore dataset (salws, customers and performance insights)
+SQL analysis on Superstore dataset (sales, customers and performance insights)
 
 ## Dataset
 - Superstore dataset
